@@ -23,8 +23,8 @@ email: info@overstepapp.com
 description: >-
   Overstep is an adaptive learning app that optimizes your study routine 
   with AI-powered customized practice sessions that adapt to your learning pace.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/overstep-landing" # the subpath of your site, e.g. /blog
+url: "https://li6834300.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: overstepapp
 github_username:  overstep
 
