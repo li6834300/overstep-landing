@@ -149,7 +149,7 @@ description: Overstep is an adaptive learning app that optimizes your study rout
         </div>
         <h3>Niklas Wenzel</h3>
         <p class="team-role">Learning Scientist</p>
-        <p>Cognitive psychologist specializing in SRL and knowledge retention.</p>
+        <p>Educational psychologist specializing in SRL and knowledge retention.</p>
       </div>
       <div class="team-card">
         <div class="team-image-container">
