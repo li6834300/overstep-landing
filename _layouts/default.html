@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}Overstep - Adaptive-practice Learning App</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Overstep is an adaptive-practice learning app that helps you learn smarter and faster.{% endif %}">
+  
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}Overstep - Adaptive-practice Learning App">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}Overstep is an adaptive-practice learning app that helps you learn smarter and faster.{% endif %}">
+  <meta property="og:image" content="{{ '/assets/images/og-share.png' | relative_url }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:type" content="website">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="container">
+      <a href="#top" class="logo">Overstep</a>
+      <button class="mobile-menu-button">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#how">How It Works</a>
+        <a href="#team">Team</a>
+        <a href="#updates">Updates</a>
+        <a href="#contact">Contact</a>
+        <a href="#top" class="cta-button">Get Started</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  {{ content }}
+
+  <!-- Footer -->
+  <footer class="bg-verdant-700">
+    <div class="container">
+      <p>&copy; {{ site.time | date: '%Y' }} Overstep. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html> 

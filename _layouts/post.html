@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | Overstep Blog</title>
+  <meta name="description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <a href="/" class="logo">Overstep</a>
+      <a href="/" class="cta-button" style="margin-left:auto;">Back to Home</a>
+    </div>
+  </nav>
+  <main>
+    <section class="blog-post-section bg-snow">
+      <div class="container blog-post-container">
+        <h1 class="blog-title">{{ page.title }}</h1>
+        <p class="blog-date"><i class="far fa-calendar-alt"></i> {{ page.date | date: "%B %d, %Y" }}</p>
+        <div class="blog-content">
+          {{ content }}
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-verdant-700">
+    <div class="container">
+      <p>&copy; {{ site.time | date: '%Y' }} Overstep. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html> 

@@ -1,0 +1,15 @@
+:root {
+  /** Greens **/
+  --verdant-700: #318F65;
+  --verdant-600: #5CA480;  /* primary */
+  --verdant-100: #E6F4EC;
+
+  /** Yellows **/
+  --sunbeam-700: #E5AF00;
+  --sunbeam-600: #F6C83F;  /* CTA */
+  --sunbeam-100: #FFF8D3;
+
+  /** Neutrals **/
+  --charcoal: #212121;
+  --snow: #FFFFFF;
+} 
