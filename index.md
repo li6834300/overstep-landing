@@ -10,7 +10,7 @@ description: Overstep is an adaptive learning app that optimizes your study rout
     <div class="hero-content">
       <h1>Practice<br>made easy.</h1>
       <p>Master any subject with adaptive exercises and AI-powered feedback</p>
-      <a href="#" class="cta-button">Get Started</a>
+      <a href="http://localhost:8081/" class="cta-button">Get Started</a>
     </div>
     <div class="hero-image">
       <img src="{{ '/assets/images/mascot.png' | relative_url }}" alt="Overstep Mascot" class="mascot-image">
